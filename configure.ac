@@ -1,10 +1,10 @@
 AC_PREREQ([2.69])
-AC_INIT([libipatcher], 1.0, [tihmstar@gmail.com])
+AC_INIT([libipatcher], [1.0], [tihmstar@gmail.com])
 AC_CONFIG_HEADERS([config.h])
 AM_PROG_LIBTOOL
 
 AC_CANONICAL_SYSTEM
-AM_INIT_AUTOMAKE
+AM_INIT_AUTOMAKE([libipatcher], [1.0])
 
 # Checks for programs.
 AC_PROG_CXX
